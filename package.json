@@ -1,11 +1,11 @@
 {
-  "name": "p2pspider",
+  "name": "dhtspider",
   "version": "0.1.0",
   "description": "dht spider",
   "main": "dist/index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/callmelanmao/p2pspider.git"
+    "url": "git+https://github.com/callmelanmao/dhtspider.git"
   },
   "dependencies": {
     "bencode": "^0.7.0",

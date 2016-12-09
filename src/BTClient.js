@@ -49,6 +49,10 @@ export default class BTClient extends EventEmitter {
         socket.destroy();
       });
 
+      wire.on('error', (msg) => {
+        console.log(msg);
+      });
+
       wire.on('fail', () => {
         socket.destroy();
       });

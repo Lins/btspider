@@ -26,9 +26,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
 var BOOTSTRAP_NODES = [['router.bittorrent.com', 6881], ['dht.transmissionbt.com', 6881]];
 
-var TID_LENGTH = 4;
-var NODES_MAX_SIZE = 200;
-var TOKEN_LENGTH = 2;
+var TID_LENGTH = 4,
+    NODES_MAX_SIZE = 200,
+    TOKEN_LENGTH = 2;
 
 var DHTSpider = function () {
   function DHTSpider(btclient, address, port, nodesMaxSize) {

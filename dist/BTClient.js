@@ -89,6 +89,10 @@ var BTClient = function (_EventEmitter) {
           socket.destroy();
         });
 
+        wire.on('error', function (msg) {
+          console.log(msg);
+        });
+
         wire.on('fail', function () {
           socket.destroy();
         });
